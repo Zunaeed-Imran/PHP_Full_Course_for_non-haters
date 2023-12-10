@@ -6,3 +6,5 @@
 2. $_GET or $_POST Method (45:13 in video).
 - example of a food price calculate.
 - not using localhost or any database only out_put tha input value with calculted.
+3. if else (1 hour video);
+- just use if_else and post method, not used localhost or any database.
