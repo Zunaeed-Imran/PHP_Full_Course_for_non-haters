@@ -1,6 +1,8 @@
 <?php
 $name = "Imran";
-echo "Hello {$name}"
+$food = "Chicken";
+echo "Hello {$name} <br>";
+echo "and i like  {$food}";
 
 
 ?>
