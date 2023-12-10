@@ -6,7 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="" method="get">
+  <form action="$_SERVER['PHP_SELF']" method="get">
     <label>Give Number to start loop</label>
     <input type="submit" name="stop">
   </form> 
@@ -14,6 +14,7 @@
 </html>
 
 <?php
+
 $record  = 12;
 $running = true;
 
@@ -22,5 +23,8 @@ while($running){
     $running = false;
   }
 }
+
+$record ++;
+echo $record . "<br>";
 
 ?>
