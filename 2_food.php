@@ -1,3 +1,5 @@
+<?php // Get and Post Method practice ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
