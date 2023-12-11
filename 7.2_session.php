@@ -11,7 +11,7 @@
   <title>Document</title>
 </head>
 <body>
-  <h2>yo This is Home page</h2>
-  
+  <h2>Yo This is Home page</h2><br>
+  <a href="7_session.php">go to login page</a>
 </body>
 </html>
