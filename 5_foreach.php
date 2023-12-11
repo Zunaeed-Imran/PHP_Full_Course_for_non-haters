@@ -6,7 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="5_isset.php" method="post"> <!-- it won't work if i don't set action -->
+  <form action="5_foreach.php" method="post"> <!-- it won't work if i don't set action -->
     <h3>Enter user name and password</h3><br>
     <input type="text" name="username"><br>
     <input type="password" name="password"><br>
