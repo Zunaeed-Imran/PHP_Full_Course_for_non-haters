@@ -7,7 +7,7 @@
 </head>
 <body>
   <form action="4_while_loop.php" method="get">
-    <label>Stop the loop</label>
+    <label>Stop the loop or browser will crush</label>
     <input type="submit" name="stop" value="stop">
   </form> 
 </body>
