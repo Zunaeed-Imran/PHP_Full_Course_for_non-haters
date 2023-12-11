@@ -15,3 +15,4 @@
 5. foreach practice(02:01:09 in video)(foreach in isset part).
 - it won't work if don't set the action path properly.
 - using form input username password.
+- this $_POST will return every input element from html.
