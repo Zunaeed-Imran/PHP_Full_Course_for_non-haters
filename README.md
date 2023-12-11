@@ -16,3 +16,8 @@
 - it won't work if don't set the action path properly.
 - using form input username password.
 - this $_POST will return every input element from html.
+6. Function in PHP(02:27:40 in video).
+- just using a simple return function.
+7. Session in PHP (03:09:18 in video).
+- in session we can acess otehr page variable data but,
+- we have to use session start, otherwise it won't work.
