@@ -10,3 +10,5 @@
 - just use if_else and post method, not used localhost or any database.
 4. While_loop Practice
 - Practice while loop with stop button useing.
+- in while loop we can run the loop without `$i++` variable increment 
+- it can run infinitely not like for loop
