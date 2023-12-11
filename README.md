@@ -12,6 +12,6 @@
 - Practice while loop with stop button useing.
 - in while loop we can run the loop without `$i++` variable increment .
 - it can run infinitely not like for loop.
-5. foreach practice(02:01:09 in video).
+5. foreach practice(02:01:09 in video)(foreach in isset part).
 - it won't work if don't set the action path properly.
 - using form input username password.
