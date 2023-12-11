@@ -2,8 +2,8 @@
 // simple return function
 
 function test_1($num){
-  return $num %2;
+  return $num % 2;
 }
 
-echo test_1(10);
+echo test_1(5);
 ?>
