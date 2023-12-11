@@ -6,25 +6,27 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="$_SERVER['PHP_SELF']" method="get">
-    <label>Give Number to start loop</label>
-    <input type="submit" name="stop">
+  <form action="4_while_loop.php" method="get">
+    <label>Stop the loop</label>
+    <input type="submit" name="stop" value="stop">
   </form> 
 </body>
 </html>
 
 <?php
 
-$record  = 12;
+$record  = 0;
 $running = true;
 
 while($running){
   if(isset($_GET['stop'])){
     $running = false;
+  }else{
+
+    $record ++;
+    echo $record . "<br>";
   }
 }
 
-$record ++;
-echo $record . "<br>";
 
 ?>

@@ -8,3 +8,5 @@
 - not using localhost or any database only out_put tha input value with calculted.
 3. if else (1:00 & 1:19 logic video);
 - just use if_else and post method, not used localhost or any database.
+4. While_loop Practice
+- Practice while loop with stop button useing.
