@@ -6,9 +6,12 @@
 2. $_GET or $_POST Method (45:13 in video).
 - example of a food price calculate.
 - not using localhost or any database only out_put tha input value with calculted.
-3. if else (1:00 & 1:19 logic video);
+3. if else (1:00 & 1:19 logic video).
 - just use if_else and post method, not used localhost or any database.
-4. While_loop Practice
+4. While_loop Practice(01:36:45 video).
 - Practice while loop with stop button useing.
-- in while loop we can run the loop without `$i++` variable increment 
-- it can run infinitely not like for loop
+- in while loop we can run the loop without `$i++` variable increment .
+- it can run infinitely not like for loop.
+5. isset & empty function practice(02:01:09 in video).
+- isset practice using foreach loop and,
+- using form input username password.
