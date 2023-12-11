@@ -1,5 +1,6 @@
 <?php
 // this is login page
+include '7.2_session.php';
 
 ?>
 <!DOCTYPE html>
@@ -10,6 +11,7 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <h2>yo This is Login page</h2>  
 </body>
 </html>
+
