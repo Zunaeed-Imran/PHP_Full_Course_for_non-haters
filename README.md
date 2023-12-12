@@ -21,3 +21,4 @@
 7. Session in PHP (03:09:18 in video).
 - in session we can acess otehr page variable data but,
 - we have to use session start, otherwise it won't work.
+- session won't work until we use `session_start();`
