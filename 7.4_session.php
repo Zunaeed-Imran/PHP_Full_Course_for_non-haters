@@ -28,8 +28,8 @@ echo $_SESSION['username'] . '<br>';
 echo $_SESSION['password'] . '<br>';
 
 if(isset($_POST['logout'])){
-  session_destroy();
-  header('location:7.3_session.php');
+  session_destroy();        // it will distroy the session and logout.
+  header('location:7.3_session.php'); // after logout it take me to login page again.
 }
 
 ?>
