@@ -1,6 +1,7 @@
 <?php
 // session input value Home page
 
+
 ?>
 
 <!DOCTYPE html>
@@ -11,6 +12,7 @@
   <title>Sesion input value Home Page</title>
 </head>
 <body>
-  
+  <h2>this is Home page</h2><br>
+  <a href="7.3_session.php">Got to Login Page</a>
 </body>
 </html>

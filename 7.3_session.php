@@ -1,6 +1,6 @@
 <?php
 // session input value login page
-
+session_start();
 
 ?>
 
@@ -14,6 +14,7 @@
 <body>
   <form action="7.3_session.php" method="post">
    <h2>This is Login Page</h2><br>
+   <a href="7.4_session.php">Go to Home page</a><br>
    <input type="text" name="name"><br>
    <input type="password" name="password"><br>
    <input type="submit" name="login" value="login"><br>
@@ -21,3 +22,15 @@
   </form>
 </body>
 </html>
+
+<?php
+
+if(isset($_POST['login'])){
+  $_SESSION['username'] = $_POST['name'];
+  $_SESSION['password'] = $_POST['password'];
+
+  echo $_SESSION['username'] . '<br>';
+  echo $_SESSION['password'] . '<br>';
+}
+
+?>
