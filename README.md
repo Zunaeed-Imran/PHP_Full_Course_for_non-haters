@@ -26,4 +26,5 @@
 - we also use `session_destroy();` function which will distroy the session and have to login again.
 8. Server in PHP (03:17:05 in video).
 - Server Super Globel nearly show everything we need to know about the current web page environment.
-- But now we only look at `PHP_SELF`, `REQUEST_METHOD` and other info is more advanced
+- But now we only look at `PHP_SELF`, `REQUEST_METHOD` and other info is more advanced.
+- with server we can update form by PHP self, we have to update one time only even we change multiple time the file name `<?php $_SERVER[PHP_SELF]?>`;
