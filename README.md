@@ -28,3 +28,7 @@
 - Server Super Globel nearly show everything we need to know about the current web page environment.
 - But now we only look at `PHP_SELF`, `REQUEST_METHOD` and other info is more advanced.
 - with server we can update form by PHP self, we have to update one time only even we change multiple time the file name `<?php $_SERVER[PHP_SELF]?>`;
+9. Password Hashing(03:23:37 in video).
+- `password_hash();` is the password hash function. 
+- it have two argunment <b> 1st is $password variable </b> and <b> 2nd agrunment is constant `PASSWORD_DEFAULT` </b>
+- 
