@@ -24,3 +24,4 @@
 - session won't work until we use `session_start();`
 - we practice session with <b> input value by form </b>
 - we also use `session_destroy();` function which will distroy the session and have to login again.
+8. Server in PHP (03:17:05 in video).
