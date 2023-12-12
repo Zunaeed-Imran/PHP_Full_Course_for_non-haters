@@ -32,4 +32,5 @@
 - `password_hash();` is the password hash function. 
 - it have two argunment <b> 1st is $password variable </b> and <b> 2nd agrunment is constant `PASSWORD_DEFAULT` </b>
 #### 9.2  Password Hash verify(03:25:05 in video).
-- 
+- `password_verify` function have two argunment 1st is <b> input new password </b>
+- and 2nd is the <b> $hash variable </b> what we set before.
