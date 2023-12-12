@@ -1,6 +1,6 @@
 <?php
 // session input value Home page
-
+session_start();
 
 ?>
 
@@ -12,7 +12,24 @@
   <title>Sesion input value Home Page</title>
 </head>
 <body>
-  <h2>this is Home page</h2><br>
-  <a href="7.3_session.php">Got to Login Page</a>
+  <h2>This is Home page</h2><br>
+  <a href="7.3_session.php">Go to Login Page</a><br>
+
+  <form action="7.4_session.php" method="post">
+    <input type="submit" name="logout" value="logout"><br>
+  </form>
+
 </body>
 </html>
+
+<?php
+
+echo $_SESSION['username'] . '<br>';
+echo $_SESSION['password'] . '<br>';
+
+if(isset($_POST['logout'])){
+  session_destroy();
+  header('location:7.3_session.php');
+}
+
+?>

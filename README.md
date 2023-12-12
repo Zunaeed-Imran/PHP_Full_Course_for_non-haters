@@ -22,3 +22,5 @@
 - in session we can acess otehr page variable data but,
 - we have to use session start, otherwise it won't work.
 - session won't work until we use `session_start();`
+- we practice session with <b> input value by form </b>
+- we also use `` function which will distroy the session and have to login again.
