@@ -1,6 +1,6 @@
 <?php
 // this is home page
-
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -8,10 +8,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Session Home Page</title>
 </head>
 <body>
-  <h2>Yo This is Home page</h2><br>
   <a href="7_session.php">go to login page</a>
+  <h2>Yo This is Home page</h2><br>
 </body>
 </html>
+
+<?php
+
+echo $_SESSION['name'] . '<br>';
+echo $_SESSION['password'] . '<br>';
+
+
+?>
