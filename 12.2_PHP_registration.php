@@ -16,7 +16,9 @@ include '12_PHP_registration.php';
 <body>
   <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
     <h2>Welcome to Registration Form</h2><br>
+    UserName: <br>
     <input type="text" name="name"><br>
+    Password: <br>
     <input type="password" name="password"><br>
     <input type="submit" name="register" value="register"><br>
   </form>
@@ -24,6 +26,17 @@ include '12_PHP_registration.php';
 </html>
 
 <?php
-mysqli_close($connection);
 
+$user = $_REQUEST['name'];
+$password = $_REQUEST['password'];
+
+
+$sql = "INSERT INTO * `users` (name, password) values ($user, $password)";
+
+if($_SERVER['REQUEST_METHOD' == 'POST']){
+  mysqli_query($connection, $sql);
+  echo 'You are Registered';
+}
+
+mysqli_close($connection);
 ?>
