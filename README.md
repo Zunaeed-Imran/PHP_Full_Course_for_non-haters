@@ -36,3 +36,7 @@
 - and 2nd is the <b> $hash variable </b> what we set before.
 #### 10. My SQl Database.
 - we use try catch in database connect page in catch we have to use `mysqli_sql_exception`
+- for insert data we use `mysqli_query()` function it have two argunment 1st is databse <b> connect variable </b>
+- and 2nd is <b> insert commant we use to insert data into database </b>
+- it this exampe we input data manually that's why we have to close connection from database <br>
+that's why we use use `mysqli_close()` function. 
