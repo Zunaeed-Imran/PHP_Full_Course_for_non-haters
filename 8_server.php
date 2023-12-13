@@ -15,7 +15,7 @@
 
 <?php
 
-// foreach($_SERVER as $key => $value){
+// foreach($_SERVER as $key => $value){  // this code will show everythis in the wep page.
 //   echo "{$key} = {$value} <br>";
 // }
 
