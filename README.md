@@ -41,3 +41,7 @@
 - and 2nd is <b> insert commant we use to insert data into database </b>
 - it this exampe we input data manually that's why we have to close connection from database <br>
   that's why we use use `mysqli_close()` function. 
+#### 11 My SQL Query database (03:47:30 in video).
+- we are gonne view the data from database.
+- we use `mysqli_fetch_assoc();` function, <br>
+  <b> this function return next available row </b> with in our object.
