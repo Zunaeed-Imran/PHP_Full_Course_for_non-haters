@@ -45,3 +45,5 @@
 - we are gonne view the data from database.
 - we use `mysqli_fetch_assoc();` function, <br>
   <b> this function return next available row </b> with in our object.
+#### 12 PHP Registration form, (03:49:39 in video).
+- 
