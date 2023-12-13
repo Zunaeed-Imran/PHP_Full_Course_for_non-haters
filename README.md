@@ -34,7 +34,7 @@
 #### 9.2  Password Hash verify(03:25:05 in video).
 - `password_verify` function have two argunment 1st is <b> input new password </b>
 - and 2nd is the <b> $hash variable </b> what we set before.
-#### 10. My SQl Database.
+#### 10 and 10.2 My SQl Database (03:39:07 in video).
 - we use try catch in database connect page in catch we have to use `mysqli_sql_exception` <br>
   <b> The mysqli exception handling class. </b>
 - for insert data we use `mysqli_query()` function it have two argunment 1st is databse <b> connect variable </b>
