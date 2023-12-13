@@ -35,4 +35,4 @@
 - `password_verify` function have two argunment 1st is <b> input new password </b>
 - and 2nd is the <b> $hash variable </b> what we set before.
 #### 10. My SQl Database.
-- 
+- we use try catch in database connect page in catch we have to use `mysqli_sql_exception`
