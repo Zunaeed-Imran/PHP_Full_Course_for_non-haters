@@ -31,7 +31,7 @@ $user = $_REQUEST['name'];
 $password = $_REQUEST['password'];
 
 
-$sql = "INSERT INTO * `users` (name, password) values ($user, $password)";
+$sql = "INSERT INTO * `users` (id, name, password) values (null, $user, $password)";
 
 if($_SERVER['REQUEST_METHOD' == 'POST']){
   mysqli_query($connection, $sql);
